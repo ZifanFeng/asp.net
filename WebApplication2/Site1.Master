@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="Menu" runat="server">
+        <asp:Panel ID="user_panel" runat="server">
+        Welcome, <asp:Label ID="name" runat="server"></asp:Label>
+        <asp:LinkButton runat="server" PostBackUrl="~/Login.aspx" Text="Log Out" OnClick="forgetName"></asp:LinkButton>
+        </asp:Panel>
+       <asp:Panel ID="stranger_panel" runat="server">
+       Hi Stranger! Please <asp:LinkButton runat="server"  PostBackUrl="~/Login.aspx" Text="Log In" OnClick="forgetName" ></asp:LinkButton>
+       </asp:Panel>
+        </asp:ContentPlaceHolder>
+        
+    </div>
+    <div id="Content">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+     </div>
+    </form>
+</body>
+</html>

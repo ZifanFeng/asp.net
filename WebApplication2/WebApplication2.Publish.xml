@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Administrator\Desktop\zf\websiiite thing" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Login.aspx" publishTime="06/29/2017 15:17:13" />
+    <file relUrl="Web.config" publishTime="06/29/2017 09:41:11" />
+    <file relUrl="bin/WebApplication2.pdb" publishTime="06/29/2017 17:21:24" />
+    <file relUrl="Site1.Master" publishTime="06/29/2017 16:51:21" />
+    <file relUrl="Default.aspx" publishTime="06/29/2017 17:07:28" />
+    <file relUrl="bin/WebApplication2.dll" publishTime="06/29/2017 17:21:25" />
+  </publishProfile>
+</publishData>
